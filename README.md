@@ -1,15 +1,16 @@
 # http5112
 A repo to store files from HTTP5112
 
-HTTP 5114 is the course code for Workshops in Web Development. The course is taught by Adam and Gaurav.
+HTTP 5112 is the course code for Labs for Web Development. The course is taught by Christine and Jemi.
  
-This is a fun course where students are made to solve real-time problems. The page consists of all the course contents and other related topics of Workshops in Web Development.
+The page consists of all the course contents and other related topics of Workshops in Web Development.
 
 ### Links for the subject:
 - <https:workshopsinwd.humber>
 - You can find all the necessary details in [Workshops in Web development](https:webdevwrokshop.humber)
 
-![It's a fun place to code](workshops-wd-logo.png)
+![jackson-sophat-_t-l5FFH8VA-unsplash](https://github.com/hannah2898/http5112/assets/43001462/7a32361e-040a-464c-81f6-83fb6d39c099)
+
 
 ### Note:
 Every student must understand and follow *"Academic Integrity"*
