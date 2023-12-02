@@ -1,0 +1,27 @@
+﻿@model n01626469_Assignment3.Models.Teacher
+@{
+    ViewBag.Title = "Show";
+}
+
+<div id="containershow">
+    <nav>
+        <!--Nav bar for delete and back button-->
+        <div class="navbar">
+            <div class="navitem">
+            <a  href="/Teacher/List">Back To Teachers</a>
+            </div>
+            <div class="navitem">
+                <a class="dellink" style="color: #dd1111" href="/Teacher/DeleteConfirm/@Model.TeacherId">Delete</a>
+            </div>
+
+        </div>
+
+</nav>
+    <h2>@Model.TeacherFname @Model.TeacherLname</h2>
+
+    <p> Employee number: @Model.EmployeeNumber </p>
+    <p> Salary: @Model.Salary</p>
+    <p> TeacherId: @Model.TeacherId </p>
+    <p> Hire Date: @Model.HireDate </p>
+
+</div>

@@ -1,0 +1,23 @@
+﻿@model n01626469_Assignment3.Models.Teacher
+@{
+    ViewBag.Title = "DeleteConfirm";
+}
+<nav>
+    <a href="/Teacher/Show/@Model.TeacherId">Cancel</a>
+</nav>
+
+<h2>Are you sure you want to delete @Model.TeacherFname @Model.TeacherLname?</h2>
+<p>This action cannot be undone</p>
+
+<!--Nav bar  confirm delete and back button-->
+<form method="POST" action="/Teacher/Delete/@Model.TeacherId">
+    <!--I tried moving the style to the css folder but it doesnt seem to get reflected in the browser which is why I left it here-->
+    <button style="display:block;margin:0 auto;background:#dd1111;color:white;border:1px solid #000;border-radius:3px;"
+            class="delButton" href="">
+        Confirm Delete
+    </button>
+
+</form>
+
+
+
