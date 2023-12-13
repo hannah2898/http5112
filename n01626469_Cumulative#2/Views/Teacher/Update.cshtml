@@ -1,0 +1,37 @@
+﻿@model n01626469_Assignment3.Models.Teacher
+@{
+    ViewBag.Title = "Update";
+}
+<script src="~/Scripts/Validation.js"></script>
+<div id="containershow">
+    <nav>
+        <a class="nav-link" style="color:dodgerblue;" href="/Teacher/Show/@Model.TeacherId">Back</a>
+    </nav>
+    <h2>Update Teacher</h2>
+    <form method="POST" action="/Teacher/Update/@Model.TeacherId" onsubmit="return validateForm()">
+        <div>
+            <label for="TeacherFname">TeacherFname:</label>
+            <input type="text" id="TeacherFname" name="TeacherFname" value="@Model.TeacherFname"/>
+        </div>
+        <div>
+            <label for="TeacherLname">TeacherLname:</label>
+            <input type="text" id="TeacherLname" name="TeacherLname" value="@Model.TeacherLname"/>
+        </div>
+        <div>
+            <label for="EmployeeNumber">EmployeeNumber:</label>
+            <input type="text" id="EmployeeNumber" name="EmployeeNumber" value="@Model.EmployeeNumber" />
+        </div>
+        <div>
+            <label for="HireDate">HireDate:</label>
+            <input type="date" id="HireDate" name="HireDate" value="@Model.HireDate.ToString("yyyy-MM-dd")" />
+        </div>
+        <div>
+            <label for="Salary">Salary:</label>
+            <input type="text" id="Salary" name="Salary" value="@Model.Salary"/>
+        </div>
+        <div>
+            <input type="submit" value="Update Teacher" />
+        </div>
+    </form>
+
+</div>
